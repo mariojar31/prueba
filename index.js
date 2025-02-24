@@ -17,7 +17,7 @@ async function uploadFile(file) {
   });
 
   // API Gateway endpoint
-  const apiEndpoint = 'https://ftna7rikr0.execute-api.us-east-1.amazonaws.com/default/cargar-archivos';
+  const apiEndpoint = 'https://ne0sqvfmj6.execute-api.us-east-1.amazonaws.com/dev/upload-archivos';
 
   try {
       const response = await fetch(apiEndpoint, {
